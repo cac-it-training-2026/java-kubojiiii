@@ -8,8 +8,8 @@ public class Question06_2 {
 
 		String[] studentName = new String[] { "かなこ", "ゆうた", "あい", "はるひ", "かずき" };
 
-		for (int i = 0; i < studentName.length; i++) {
-			System.out.println(studentName[i]);
+		for (String value : studentName) {
+			System.out.println(value);
 		}
 
 	}
