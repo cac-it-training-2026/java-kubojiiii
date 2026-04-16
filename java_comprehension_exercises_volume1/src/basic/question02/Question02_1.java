@@ -13,10 +13,10 @@ public class Question02_1 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		System.out.print("名前を入力してください。");
-		String str1 = reader.readLine();
+		String name = reader.readLine();
 		System.out.print("好きなスポーツを入力してください。");
-		String str2 = reader.readLine();
-		System.out.println("私の名前は" + str1 + "です。");
-		System.out.println("好きなスポーツは" + str2 + "です。");
+		String sport = reader.readLine();
+		System.out.println("私の名前は" + name + "です。");
+		System.out.println("好きなスポーツは" + sport + "です。");
 	}
 }
